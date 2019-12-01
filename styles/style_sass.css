@@ -1,0 +1,46 @@
+@charset "UTF-8";
+body {
+  background-color: #282828;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.menu {
+  text-align: right;
+  line-height: 1vw;
+  margin-right: 2.5vw;
+  -webkit-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  /* border: 2px solid $nav-color   Für Präsentation an Herr Garavaldi zum zeigen von SASS Mixin */
+}
+.menu li {
+  display: inline;
+  font-size: 0.8vw;
+  letter-spacing: 0.2em;
+}
+.menu a {
+  text-decoration: none;
+  color: #FFFFFF;
+  opacity: 0.8;
+  font-family: "Rubik", "Rubik Black", "Rubik Light", "Rubik Medium";
+  font-weight: normal;
+}
+
+nav ul li a:hover {
+  opacity: 1;
+}
+
+header {
+  height: 5%;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+  display: block;
+  top: 1.5vw;
+}
+
+/*# sourceMappingURL=style_sass.css.map */

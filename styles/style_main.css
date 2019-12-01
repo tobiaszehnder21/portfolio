@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+h1 {
+	position: absolute;
+	color: #3500D3;
+	font-size: 3.4vw;
+	left: 0;
+	right: 0;
+	top: 16.5vw;
+	text-align: center;
+	z-index: 5;
+}
+
+h2 {
+	font-size: 1.2vw;
+	position: absolute;
+	left: -8vw;
+	right: 0;
+	top: 20vw;
+	text-align: center;
+	z-index: 5;
+}
+
+.welcome {
+	position: absolute;
+	padding: 30% 0 0 20%;
+	font-size: 0.8vw;
+	text-align: left;
+	left: 39vw;
+	right: 0;
+	top: -16.5vw;
+	
+}
+
+.title-container {
+	position: relative;
+	left: -3vw;
+}
+
+.decor-1 {
+	position: absolute;
+	width: 10%;
+	left: 36vw;
+	top: 16vw;
+	z-index: 2;
+}
+
+.decor-2 {
+	position: absolute;
+	width: 8%;
+	left: 57vw;
+	top: 22vw;
+	z-index: 2;
+}
+
+.learn-more {
+	font-size: 0.7vw;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 40vw;
+	letter-spacing: 0.1em
+}
+
+.arrow {
+	z-index: 5;
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 3%;
+    margin-left: auto;
+    margin-right: auto;
+	top: 42vw;
+	
+}
+
+
+.about-me_text {
+	margin-right: 40%;
+	position: absolute;
+	z-index: 10;
+	font-size: 1vw;
+	padding: 70vw 0 0 15vw;
+	opacity: 0.8;
+}
+
+
+.portrait-1 {
+	z-index: 1;
+	position: absolute;
+	margin: 63vw 0 15vw 50vw;	
+}
+
+.portrait-2 {
+	z-index: 1;
+	position: absolute;
+	margin: 62vw 0 15vw 86.5vw;	
+}
+
+.portrait-3 {
+	z-index: 2;
+	position: absolute;
+	margin: 82.5vw 0 5vw 77.5vw;	
+}
+
+.decor-3 {
+	position: absolute;
+	width: 19.5%;
+	left: 65vw;
+	top: 60vw;
+	z-index: 0;
+}
+
+.decor-4 {
+	position: absolute;
+	width: 10%;
+	left: 50vw;
+	top: 86.5vw;
+	z-index: 0;
+}
+
+.about-me_title {
+	position: absolute;
+	width: 15%;
+	z-index: 1;
+	top: 66vw;
+	left: 67vw;
+}
+
+
+ .buttonorder {
+  background-color: #282828;
+  color: #ffffff;
+  padding: 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 0.8vw;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  top: 79vw;
+  left: 21.8vw;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  position: absolute;
+  font-family: Rubik, 'Rubik Black', 'Rubik Light', 'Rubik Medium';
+  border: 2px solid;
+  border-color: #FFFFFF;
+  letter-spacing: 0.2em;
+  opacity: 0.8
+}
+
+.buttonorder:hover {
+  color: #FFFFFF;
+  background-color: #3500D3;
+  border-width: 2px;
+  border-color: #3500D3;
+  transform: scale(1.2,1.2) translate(-40%, -40%);
+  box-shadow: 0px 0px 10px 10px #232323;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
